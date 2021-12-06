@@ -1,1 +1,5 @@
-GET http://localhost:5000/suppliers
+# POST /suppliers HTTP/1.1
+# Host: http://localhost:5000
+# {"data": {"supplier_name": "Boo", "supplier_email": "pk437g7e4i9@temporary-mail.net"}}
+
+GET /categories HTTP/1.1 Host: http://localhost:5000
